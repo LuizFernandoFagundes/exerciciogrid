@@ -10,31 +10,55 @@
 
 .verde{
     grid-area: verde;
-    background-color: green;
+    background-color: #339989;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .azul{
     grid-area: azul;
-    background-color: blue;
+    background-color: #4DADC2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .laranja{
     grid-area: laranja;
-    background-color: orange;
+    background-color: #A95851;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .verde-forte{
     grid-area: verde-forte;
-    background-color: darkgreen;
+    background-color: #355D68;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .marrom{
     grid-area: marrom;
-    background-color: peru;
+    background-color: #716563;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rosa{
     grid-area: rosa;
-    background-color: pink;
+    background-color: #BF5B9D;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
