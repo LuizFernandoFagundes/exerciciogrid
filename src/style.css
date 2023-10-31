@@ -1,3 +1,8 @@
+main{
+    background: rgb(55,20,48);
+    background: linear-gradient(90deg, rgba(55,20,48,1) 0%, rgba(122,46,102,1) 100%);
+}
+
 .container{
     /* max-width: 900px; */
     display: grid;
@@ -6,6 +11,8 @@
           "rosa rosa laranja laranja marrom" 100px / 100px auto auto; 
                   
     gap: 10px;
+    padding: 20px;
+    
 }
 
 .verde{
