@@ -18,8 +18,8 @@ main{
     grid: "verde verde azul azul azul" 
           "verde verde laranja laranja verde-forte"
           "rosa rosa laranja laranja marrom" ;
-    grid-template-columns: repeat(5,150px);
-    grid-template-rows: repeat(3,150px);
+    grid-template-columns: repeat(5,minmax(80px,1fr));
+    grid-template-rows: repeat(3,minmax(50px,100px)); 
                   
     gap: 10px;
     
