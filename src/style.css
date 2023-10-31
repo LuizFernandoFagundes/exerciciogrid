@@ -1,0 +1,40 @@
+.container{
+    /* max-width: 900px; */
+    display: grid;
+    grid: "verde verde azul azul azul" 50px
+          "verde verde laranja laranja verde-forte"100px
+          "rosa rosa laranja laranja marrom" 100px / 100px auto auto; 
+                  
+    gap: 10px;
+}
+
+.verde{
+    grid-area: verde;
+    background-color: green;
+    
+}
+
+.azul{
+    grid-area: azul;
+    background-color: blue;
+}
+
+.laranja{
+    grid-area: laranja;
+    background-color: orange;
+}
+
+.verde-forte{
+    grid-area: verde-forte;
+    background-color: darkgreen;
+}
+
+.marrom{
+    grid-area: marrom;
+    background-color: peru;
+}
+
+.rosa{
+    grid-area: rosa;
+    background-color: pink;
+}
