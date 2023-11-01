@@ -3,8 +3,8 @@
     padding: 0;
 }
 html{
-    background: rgb(55,20,48);
-    background: linear-gradient(90deg, rgba(55,20,48,1) 0%, rgba(122,46,102,1) 100%);
+    background-color: rgb(55,20,48);
+    background-color: linear-gradient(90deg, rgba(55,20,48,1) 0%, rgba(122,46,102,1) 100%);
 }
 main{
     /* background: rgb(55,20,48);
